@@ -1,0 +1,269 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:1440px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/* header section starts */
+header{
+    background-image: url("./images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+}    
+.logo{
+    height:320px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 130px;
+    padding-bottom: 60px;
+}
+.header-des{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.header-text{
+    width:45%;
+    text-align: center;
+}
+.header-text h1, h2{
+    margin-bottom: 25px;
+}
+h1, h2{
+    color:rgb(0,0,0,0.7);
+}
+p{
+    color:rgb(0,0,0,0.4);
+    font-size: 18px;
+}
+.btn{
+    height:60px;
+    width:230px;
+    font-size: 18px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    margin-right: 15px;
+    cursor:pointer;
+}
+.btns{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top:50px;
+    padding-bottom: 150px;
+}
+.ios-btn{
+    background-color: hsl(171, 66%, 44%);
+    box-shadow:0px 8px 10px  rgba(19, 163, 156, 0.3);
+}
+.mac-btn{
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 8px 10px rgb(76, 108, 248, 0.3);
+}
+
+/* header section ends */
+/* main section start  */
+.main{
+
+}
+.first-section{
+    margin-bottom: 160px;
+}
+.first-start-des{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.first-des{
+    width:50%;
+    text-align: center;
+}
+.first-item{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top:85px;
+}
+.first-item .image{
+    width:50%;
+}
+.image .computer{
+    width:720px;
+    height:570px;
+}
+.first-item-manu{
+    width:50%;
+    box-sizing: border-box;
+    padding-left:105px;
+}
+.first-item-manu h2{
+    margin-bottom:20px;
+}
+.first-item-manu .item-des{
+    margin-top:65px;
+    width:65%;
+}
+.first-item-manu .item-des p{
+    line-height:25px;
+    font-size:16px;
+}
+.item-des:last-of-type{
+    padding-bottom: 100px;
+}
+
+/* first section ends here */
+
+/* second section starts here */
+
+.second-section{
+    
+}
+.second-des{
+    width:100%;
+    text-align:center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom:120px;
+} 
+.description{
+    width:50%;
+}
+.description p{
+    line-height: 35px;
+    font-size: 18px;
+}
+.second-image{
+    text-align: center;
+}
+
+/* work flow starts here  */
+
+.work-des{
+    margin-bottom:70px;
+    width:100%;
+    text-align: center;
+}
+.work-des h2{
+    margin-bottom: 25px;
+}
+.work-items{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.work-flow-items{
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+    width:90%;
+}
+.work-item{
+    width:30%;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+.item-img{
+    height:90px;
+    width:100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.work-description{
+    width:100%;
+    justify-content: center;
+    display: flex;
+}
+.work-item-des{
+    width:90%;
+    text-align: center;
+}
+.work-item h3{
+    margin-bottom:30px;
+    color:rgb(0,0,0,0.7);
+}
+.work-item p{
+    font-size: 18px;
+    color:rgb(0,0,0,0.4);
+    line-height:35px;
+}
+
+/* companies starts here  */
+.logo-section{
+    justify-content: center;
+    display: flex;
+    align-items:center;
+    margin:160px 0;
+}
+.logos{
+    width:90%;
+    height:380px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.com-logo-sec{
+    justify-content: center;
+    display: flex;
+    width:20%;
+}
+.com-logo{
+    margin-right:95px;
+}
+.com-logo:last-of-type{
+    margin-right:0;
+}
+
+/* clipboard starts here  */
+.clipboard-des-sec{
+    justify-content: center;
+    display:flex;
+    align-items:center;
+}
+.clipboard-des{
+    text-align: center;
+    width:690px;
+}
+
+/* footer section  */
+
+footer{
+    height:152px;
+    background-color: hsl(201, 11%, 66%, 0.2);
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footer-logo{
+    width:30%;
+    text-align: center;
+}
+.footer-manu{
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-manu p{
+    width:190px;
+    cursor:pointer;
+    margin:15px 0;
+    color:black;
+}
+.social-icons{
+    width:20%;
+    text-align: center;
+}
+.social-icons a{
+    margin:0 12.5px;
+}

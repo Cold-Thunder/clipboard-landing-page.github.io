@@ -1,0 +1,161 @@
+@media (max-width:375px){
+    body{
+
+    }
+    header{
+        background-image: url("./images/bg-header-mobile.png");
+        background-repeat:no-repeat;
+        width:375px;
+    }
+    .header-text{
+        width:92%;
+    }
+    
+    .header p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .mac-btn{
+        margin-top: 20px;
+    }
+    /* main section start  */
+    main{
+        width:375px;
+    }
+    .first-start-des{
+        width:375px;
+    }
+    .first-des{
+        width:85%;
+    }
+    .first-des h2{
+        font-size: 30px;
+    }
+    .first-des p{
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .first-item{
+        width:375px;
+    }
+    .image{
+        width:375px;
+        justify-content: center;
+        display: flex;
+    }
+    .image .computer{
+        width:375px;
+        height:240px;
+    }
+    .first-item-manu{
+        justify-content: center;
+        display: flex;
+        flex-wrap:wrap;
+        width:375px;
+        text-align: center;
+        padding-left:0;
+    }
+     .item-des{
+        width:100%;
+        font-size: 16px;
+    }
+    .item-des p{
+    }
+
+    /* second starts here  */
+    .description{
+        width:85%;
+    }
+    .description h2{
+        font-size:30px;
+    }
+    .description p{
+        font-size:17px;
+    }
+    .second-des{
+        margin-bottom:70px;
+    }
+    .second-image{
+        width:375px;
+    }
+    .second-image img{
+        width:310px;
+    }
+
+    /* work flow  starts here*/
+    .work-des{
+        margin-bottom: 90px;
+    }
+    .work-item{
+        width:100%;
+        margin-bottom:60px;
+    }
+    .item-image{
+        margin-bottom:30px;
+    }
+    .work-item h3{
+        margin-bottom: 30px;
+    }
+    .work-item p{
+        font-size: 17px;
+        line-height:30px;
+    }
+     /* companies starts here  */
+     .logo-section{
+        margin:0;
+     }
+     .logos{
+        margin-top:100px;
+     }
+     .com-logo-sec{
+        width:100%;
+     }
+     .com-logo{
+        margin:33px 0;
+     }
+
+     /* clipboard starts here  */
+     .clipboard{
+        margin-top:270px;
+        justify-content: center;
+        display: flex;
+        align-items:center;
+     }
+     .clipboard-section{
+        width:80%;
+     }
+     .clipboard h2{
+        font-size:30px;
+     }
+     .clipboard-des p{
+        font-size:16px;
+        line-height:32px;
+    }
+
+    /* footer starts here  */
+    footer{
+        width:375px;
+        height:500px;
+        padding-top:50px;
+        padding-bottom:50px;
+    }
+    .footer-logo{
+        width:100%;
+        padding-bottom: 45px;
+    }
+    .footer-manu{
+        width:100%;
+        text-align: center;
+    }
+    .footer-manu p{
+        width:100%;
+    }
+    .social-icons{
+        width:100%;
+        margin-top:50px;
+        margin-bottom:50px;
+    }
+    .social-icons a{
+        margin:0 20px;
+    }
+}
